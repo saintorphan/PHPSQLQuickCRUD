@@ -19,5 +19,3 @@ CREATE TABLE students (
 TODO:
 
 Decrease AUTO_INC value of employee_id upon deleting an employee
-
-Y/N confirmation dialog for employee_delete

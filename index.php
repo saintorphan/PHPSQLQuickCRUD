@@ -1,11 +1,12 @@
 <!-- Home Page -->
 
 <?php
-session_start();
-require 'dbc.php';
-include('includes/header.php'); ?>
-<div class="container mt-5">
-    <?php include('msg.php'); ?>
+session_start(); // session_start to utilize msg.php function
+require 'dbc.php'; // Requires SQL database connection
+include('includes/header.php');  // Include universal header
+?>
+<div class="container mt-5"> <!-- Main container -->
+    <?php include('msg.php'); ?> <!-- Include messaging module and display when set based on msg.php -->
     <div class="row">
         <div class="col-md-12">
             <div class="card">

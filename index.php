@@ -1,23 +1,15 @@
 <?php
 session_start();
 require 'dbc.php';
-?>
-
-<?php include('includes/header.php'); ?>
-
-
-
+include('includes/header.php'); ?>
     <div class="container mt-5">
-
         <?php include('msg.php'); ?>
-
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
                         <h4>Employee Details
                             <a href="addemployee.php" class="btn btn-primary float-end">Add Employees</a>
-
                         </h4>
                     </div>
                     <div class="card-body">
@@ -68,11 +60,10 @@ require 'dbc.php';
                                                 </form>
                                             </td>
                                         </tr>
-
                                         <?php
-
                                     }
-                                } else {
+                                } 
+                                else {
                                     echo "<h5> No Database Records </h5>";
                                 }
                                 ?>
@@ -83,6 +74,5 @@ require 'dbc.php';
             </div>
         </div>
     </div>
-
-    <?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
     

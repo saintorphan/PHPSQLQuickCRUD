@@ -4,7 +4,7 @@
 require 'dbc.php'; // Requires SQL database connection
 include('includes/header.php'); // Universal header
 ?>
-<div class="containter mt-5"> <!-- Main container -->
+<div class="container mt-5"> <!-- Main container -->
     <div class="row">
         <div class="col-md-12">
             <div class="card">

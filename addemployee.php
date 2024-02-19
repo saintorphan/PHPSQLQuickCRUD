@@ -4,7 +4,7 @@
 session_start(); // session_start to utilize msg.php function
 include('includes/header.php'); // Include universal header
 ?>
-<div class="containter mt-5"> <!-- Main container -->
+<div class="container mt-5"> <!-- Main container -->
     <?php include('msg.php'); ?>  <!-- Include messaging module and display when set based on msg.php -->
     <div class="row">
         <div class="col-md-12">

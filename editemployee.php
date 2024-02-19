@@ -45,7 +45,7 @@ include('includes/header.php');
                                 </div>
                                 <div class="mb-3">
                                     <button type="submit" name="update_employee" class="btn btn-primary">Update
-                                        Employee</button>
+                                        Employee</button> <!-- Call method POST in eval.php -->
 
                                 </div>
                             </form>

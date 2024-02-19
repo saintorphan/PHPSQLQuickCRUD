@@ -33,7 +33,7 @@ include('includes/header.php'); // Include universal header
                             <input type="text" name="position" class="form-control">
                         </div>
                         <div class="mb-3">
-                            <button type="submit" name="save_employee" class="btn btn-primary">Save Employee</button>
+                            <button type="submit" name="save_employee" class="btn btn-primary">Save Employee</button> <!-- Call method POST in eval.php -->
                         </div>
                     </form>
                 </div>

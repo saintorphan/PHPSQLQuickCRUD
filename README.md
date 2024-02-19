@@ -18,4 +18,4 @@ CREATE TABLE students (
 
 TODO:
 
-Decrease AUTO_INC value of employee_id upon deleting an employee
+Decrease AUTO_INC value of employee_id upon deleting an employee, reorder InnoDB with TABLE ALTER
